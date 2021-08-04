@@ -1,0 +1,15 @@
+.mensajes__card {
+  height: 100vh;
+  max-height: calc(100vh - 200px);
+}
+
+.mensaje__flex {
+  display: grid;
+  height: calc(100% - 40px);
+  grid-template-rows: 1fr 50px;
+
+  nav {
+    justify-self: flex-end;
+    align-self: center;
+  }
+}
